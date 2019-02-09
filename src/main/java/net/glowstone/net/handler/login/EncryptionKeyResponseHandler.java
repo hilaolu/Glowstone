@@ -37,7 +37,7 @@ public final class EncryptionKeyResponseHandler implements
     MessageHandler<GlowSession, EncryptionKeyResponseMessage> {
 
     private static final String BASE_URL =
-            "https://sessionserver.mojang.com/session/minecraft/hasJoined";
+            "https://yggdrasil.apis.moe/sessionserver/session/minecraft/hasJoined";
     private static final JSONParser PARSER = new JSONParser();
 
     @Override
